@@ -800,6 +800,7 @@ def create_hue_success_response(entity_number, attr, value):
 def create_config_model(config, request):
     """Create a config resource."""
     return {
+        "name": "Philips hue",
         "mac": "00:00:00:00:00:00",
         "swversion": "01003542",
         "apiversion": "1.17.0",
